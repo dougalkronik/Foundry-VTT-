@@ -1,0 +1,33 @@
+{
+   "name": "SharedData",
+   "title": "Shared Data",
+   "description": "Sharing data across worlds",
+   "author": "Dougal Kronik",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.5.5"
+ }
+ "packs": [
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    {
+      "name": "monsters",
+      "label": "My Monsters",
+      "path": "packs/monsters.db",
+      "entity": "Actor",
+      "module": "SharedData"
+    },
+    {
+      "name": "scenes",
+      "label": "My Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "SharedData"
+    }
+  ]
+ }
